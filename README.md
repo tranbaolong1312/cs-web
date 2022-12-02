@@ -1,2 +1,2 @@
 # cs-web
-This is for test merge on main will be deleted after merged
+### Please Check Pipeline SUCCESSED before merging Merge Request
