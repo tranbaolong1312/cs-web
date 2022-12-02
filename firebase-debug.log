@@ -1,0 +1,40 @@
+[debug] [2022-12-02T07:57:07.388Z] ----------------------------------------------------------------------
+[debug] [2022-12-02T07:57:07.390Z] Command:       /usr/local/share/nvm/versions/node/v16.18.1/bin/node /home/codespace/nvm/current/bin/firebase init hosting:github
+[debug] [2022-12-02T07:57:07.390Z] CLI Version:   11.16.1
+[debug] [2022-12-02T07:57:07.390Z] Platform:      linux
+[debug] [2022-12-02T07:57:07.390Z] Node Version:  v16.18.1
+[debug] [2022-12-02T07:57:07.391Z] Time:          Fri Dec 02 2022 07:57:07 GMT+0000 (Coordinated Universal Time)
+[debug] [2022-12-02T07:57:07.391Z] Env Overrides: GITHUB_API_URL
+[debug] [2022-12-02T07:57:07.391Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-02T07:57:07.396Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-02T07:57:07.397Z] > authorizing via signed-in user (duongngocbao318@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /workspaces/cs-web
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-12-02T07:57:35.612Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-12-02T07:57:35.625Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+[debug] [2022-12-02T07:57:35.657Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+    at RetryOperation._fn (/usr/local/share/nvm/versions/node/v16.18.1/lib/node_modules/firebase-tools/lib/apiv2.js:242:31)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
