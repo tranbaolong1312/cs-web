@@ -1,10 +1,10 @@
 
-@media (min-width: 768px) {
+@media (min-width: 896px) {
 .ladi-section .ladi-container {
     width: 960px;
 }
 }
-@media (max-width: 767px) {
+@media (max-width: 895px) {
 .ladi-section .ladi-container {
     width: 420px;
 }

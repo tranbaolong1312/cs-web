@@ -1,5 +1,5 @@
 
-@media (min-width: 768px) {
+@media (min-width: 896px) {
 .CLTTRR{
     margin-left: 100px;
 }
@@ -10,7 +10,7 @@
     background-image: url("data:image/svg+xml;utf8, %3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%23fff%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M2.00015%205.58594L12.0002%2015.5859L22.0002%205.58594L23.4144%207.00015L12.0002%2018.4144L0.585938%207.00015L2.00015%205.58594Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
 }
 #SECTION2 {
-    height: 775px;
+    height: 800px;
     background-image: url("https://img.upanh.tv/2022/11/30/1.-Troi--yen.jpg");
 }
 #SECTION2 > .ladi-section-background {
@@ -26,6 +26,7 @@
 #SECTION6 {
     height: 671.001px;
     background-image: url("https://img.upanh.tv/2022/11/30/2484ce0fa1f4e9659.jpg");
+    background-attachment: fixed;
 }
 #SECTION6 > .ladi-section-background {
     background-size: cover;
@@ -178,9 +179,6 @@
     rgba(0, 0, 153, 1)
     );
 }
-#SECTION848 .ladi-section-arrow-down {
-    background-image: url("data:image/svg+xml;utf8, %3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%23fff%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M2.00015%205.58594L12.0002%2015.5859L22.0002%205.58594L23.4144%207.00015L12.0002%2018.4144L0.585938%207.00015L2.00015%205.58594Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
-}
 #HEADLINE850 {
     width: 237px;
     top: 42.8026px;
@@ -305,33 +303,11 @@
     top: 0px;
     left: 0px;
 }
-#BOX1041 > .ladi-box {
-    background: rgba(255, 173, 7, 1);
-    background: -webkit-linear-gradient(
-    180deg,
-    rgba(255, 173, 7, 1),
-    rgba(255, 40, 32, 1)
-    );
-    background: linear-gradient(
-    180deg,
-    rgba(255, 173, 7, 1),
-    rgba(255, 40, 32, 1)
-    );
-    box-shadow: 0px 7px 15px 0px rgba(10, 29, 88, 0.1);
-    -webkit-box-shadow: 0px 7px 15px 0px rgba(10, 29, 88, 0.1);
-    border-style: solid;
-    border-color: rgb(255, 225, 176);
-    border-width: 3px;
-    border-radius: 99px;
-}
 #SHAPE1042 {
     width: 49.792px;
     height: 49.792px;
     top: 13.226px;
     left: 13.226px;
-}
-#SHAPE1042 svg:last-child {
-    fill: rgba(255, 255, 255, 1);
 }
 #GROUP1040 {
     width: 76.244px;
@@ -779,6 +755,19 @@
     top: 191.651px;
     left: 514px;
 }
+
+#GALLERY1114 {
+    width: 563.063px;
+    height: 505.35px;
+    top: 180px;
+    left: 500px;
+}
+#GALLERY1115 {
+    width: 563.063px;
+    height: 505.35px;
+    top: 780px;
+    left: -50px;
+}
 #BUTTON_TEXT1114 {
     width: 216px;
     top: 9px;
@@ -965,6 +954,7 @@
 #SECTION1118 {
     height: 766.001px;
     background-image: url("https://img.upanh.tv/2022/11/30/2484ce0fa1f4e9659.jpg");
+    background-attachment: fixed;
 }
 #SECTION1118 > .ladi-section-background {
     background-size: cover;
@@ -1214,6 +1204,8 @@
 }
 #SECTION1440 {
     height: 691.001px;
+    background-image: url("https://img.upanh.tv/2022/11/30/2484ce0fa1f4e9659.jpg");
+    background-attachment: fixed;
 }
 #SECTION1440 > .ladi-section-background {
     background-size: cover;
@@ -1230,71 +1222,6 @@
     height: 496.012px;
     top: 143.988px;
     left: 490.988px;
-}
-#GALLERY1452 .ladi-gallery .ladi-gallery-view .ladi-gallery-view-arrow,
-#GALLERY1452
-    .ladi-gallery
-    .ladi-gallery-control
-    .ladi-gallery-control-arrow {
-    background-image: url("data:image/svg+xml;utf8, %3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%23fff%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M7.00015%200.585938L18.4144%2012.0002L7.00015%2023.4144L5.58594%2022.0002L15.5859%2012.0002L5.58594%202.00015L7.00015%200.585938Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
-}
-#GALLERY1452 > .ladi-gallery > .ladi-gallery-view {
-    height: calc(100% - 0px);
-}
-#GALLERY1452 > .ladi-gallery > .ladi-gallery-control {
-    height: 0px;
-    display: none;
-}
-#GALLERY1452
-    > .ladi-gallery
-    > .ladi-gallery-control
-    > .ladi-gallery-control-box
-    > .ladi-gallery-control-item {
-    width: 0px;
-    height: 0px;
-    margin-right: 0px;
-}
-#GALLERY1452 .ladi-gallery .ladi-gallery-view-item[data-index="0"] {
-    background-image: url("https://w.ladicdn.com/s800x800/5cd7df4930dba94fe2f4593c/cay-chuong-vang-20220514163636.jpg");
-}
-#GALLERY1452 .ladi-gallery .ladi-gallery-control-item[data-index="0"] {
-    background-image: url("https://w.ladicdn.com/s400x400/5cd7df4930dba94fe2f4593c/cay-chuong-vang-20220514163636.jpg");
-}
-#GALLERY1452 .ladi-gallery .ladi-gallery-view-item[data-index="1"] {
-    background-image: url("https://w.ladicdn.com/s800x800/5cd7df4930dba94fe2f4593c/cay-sala-20220514163636.jpg");
-}
-#GALLERY1452 .ladi-gallery .ladi-gallery-control-item[data-index="1"] {
-    background-image: url("https://w.ladicdn.com/s400x400/5cd7df4930dba94fe2f4593c/cay-sala-20220514163636.jpg");
-}
-#GALLERY1452 .ladi-gallery .ladi-gallery-view-item[data-index="2"] {
-    background-image: url("https://w.ladicdn.com/s800x800/5cd7df4930dba94fe2f4593c/cay-xanh-bong-mat-20220514163636.jpg");
-}
-#GALLERY1452 .ladi-gallery .ladi-gallery-control-item[data-index="2"] {
-    background-image: url("https://w.ladicdn.com/s400x400/5cd7df4930dba94fe2f4593c/cay-xanh-bong-mat-20220514163636.jpg");
-}
-#GALLERY1452 .ladi-gallery .ladi-gallery-view-item[data-index="3"] {
-    background-image: url("https://w.ladicdn.com/s800x800/5cd7df4930dba94fe2f4593c/non-bo-da-20220514163636.jpg");
-}
-#GALLERY1452 .ladi-gallery .ladi-gallery-control-item[data-index="3"] {
-    background-image: url("https://w.ladicdn.com/s400x400/5cd7df4930dba94fe2f4593c/non-bo-da-20220514163636.jpg");
-}
-#GALLERY1452 .ladi-gallery .ladi-gallery-view-item[data-index="4"] {
-    background-image: url("https://w.ladicdn.com/s800x800/5cd7df4930dba94fe2f4593c/nui-da-20220514163637.jpg");
-}
-#GALLERY1452 .ladi-gallery .ladi-gallery-control-item[data-index="4"] {
-    background-image: url("https://w.ladicdn.com/s400x400/5cd7df4930dba94fe2f4593c/nui-da-20220514163637.jpg");
-}
-#GALLERY1452 .ladi-gallery .ladi-gallery-view-item[data-index="5"] {
-    background-image: url("https://w.ladicdn.com/s800x800/5cd7df4930dba94fe2f4593c/nui-da-ghep-20220514163637.jpg");
-}
-#GALLERY1452 .ladi-gallery .ladi-gallery-control-item[data-index="5"] {
-    background-image: url("https://w.ladicdn.com/s400x400/5cd7df4930dba94fe2f4593c/nui-da-ghep-20220514163637.jpg");
-}
-#GALLERY1452 .ladi-gallery .ladi-gallery-view-item[data-index="6"] {
-    background-image: url("https://w.ladicdn.com/s800x800/5cd7df4930dba94fe2f4593c/cay-bong-mat-20220514163636.jpg");
-}
-#GALLERY1452 .ladi-gallery .ladi-gallery-control-item[data-index="6"] {
-    background-image: url("https://w.ladicdn.com/s400x400/5cd7df4930dba94fe2f4593c/cay-bong-mat-20220514163636.jpg");
 }
 #BUTTON_TEXT1453 {
     width: 235px;
@@ -1523,6 +1450,8 @@
 }
 #SECTION1455 {
     height: 698.001px;
+    background-image: url("https://img.upanh.tv/2022/11/30/2484ce0fa1f4e9659.jpg");
+    background-attachment: fixed;
 }
 #SECTION1455 > .ladi-section-background {
     background-size: cover;
@@ -2825,6 +2754,8 @@
 }
 #SECTION1774 {
     height: 1697px;
+    background-image: url("https://img.upanh.tv/2022/11/30/2484ce0fa1f4e9659.jpg");
+    background-attachment: fixed;
 }
 #SECTION1774 > .ladi-section-background {
     background-size: cover;
@@ -2839,7 +2770,9 @@
 
 #SECTION1775 {
     height: 1697px;
-    top: -100px;
+    top: 0px;
+    background-image: url("https://img.upanh.tv/2022/11/30/2484ce0fa1f4e9659.jpg");
+    background-attachment: fixed;
 }
 #SECTION1775 > .ladi-section-background {
     background-size: cover;
@@ -3597,7 +3530,7 @@
     height: 438.94px;
     top: 0px;
     left: 0px;
-    background-image: url("https://w.ladicdn.com/s950x750/5cd7df4930dba94fe2f4593c/3-20220514162248.jpg");
+    background-image: url("https://img.upanh.tv/2022/11/30/1a206fad6532ad943.jpg");
 }
 #IMAGE1830 > .ladi-image {
     border-radius: 1px;
@@ -3609,7 +3542,7 @@
     left: 0px;
 }
 #BOX1832 > .ladi-box {
-    background-color: rgb(235, 247, 255);
+    background-color: rgba(235, 247, 255,.6);
     border-radius: 20px;
 }
 #BUTTON_TEXT1834 {
@@ -3760,6 +3693,8 @@
 }
 #SECTION1812 {
     height: 806.999px;
+    background-image: url("https://img.upanh.tv/2022/11/30/2484ce0fa1f4e9659.jpg");
+    background-attachment: fixed;
 }
 #SECTION1812 > .ladi-section-background {
     background-size: cover;
@@ -4041,7 +3976,7 @@
     height: 520.011px;
     top: 0px;
     left: 0px;
-    background-image: url("https://w.ladicdn.com/s1000x850/5cd7df4930dba94fe2f4593c/11-20220516072701.jpg");
+    background-image: url("https://img.upanh.tv/2022/11/30/1a206fad6532ad943.jpg");
 }
 #IMAGE1862.ladi-animation > .ladi-image {
     animation-name: bounceInRight;
@@ -4077,7 +4012,7 @@
     -webkit-animation-iteration-count: 1;
 }
 }
-@media (max-width: 767px) {
+@media (max-width: 895px) {
 .CLTTRR{
     margin-left: 50px;
 }
@@ -4088,7 +4023,8 @@
     background-image: url("data:image/svg+xml;utf8, %3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%23fff%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M2.00015%205.58594L12.0002%2015.5859L22.0002%205.58594L23.4144%207.00015L12.0002%2018.4144L0.585938%207.00015L2.00015%205.58594Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
 }
 #SECTION2 {
-    height: 1050.7px;
+    height: 950.7px;
+    background-image: url("https://img.upanh.tv/2022/11/30/1.-Troi--yen.jpg");
 }
 #SECTION2 > .ladi-section-background {
     background-size: cover;
@@ -4102,7 +4038,9 @@
     background-image: url("data:image/svg+xml;utf8, %3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%23fff%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M2.00015%205.58594L12.0002%2015.5859L22.0002%205.58594L23.4144%207.00015L12.0002%2018.4144L0.585938%207.00015L2.00015%205.58594Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
 }
 #SECTION6 {
-    height: 984.82px;
+    height: 880.82px;
+    background-image: url("https://img.upanh.tv/2022/11/30/2484ce0fa1f4e9659.jpg");
+    background-attachment: fixed;
 }
 #SECTION6 > .ladi-section-background {
     background-size: cover;
@@ -4117,7 +4055,7 @@
 }
 #HEADLINE7 {
     width: 253px;
-    top: 521.582px;
+    top: 460.582px;
     left: 88.5px;
 }
 #HEADLINE7 > .ladi-headline {
@@ -4254,9 +4192,6 @@
     rgba(0, 0, 153, 1)
     );
 }
-#SECTION848 .ladi-section-arrow-down {
-    background-image: url("data:image/svg+xml;utf8, %3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%23fff%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M2.00015%205.58594L12.0002%2015.5859L22.0002%205.58594L23.4144%207.00015L12.0002%2018.4144L0.585938%207.00015L2.00015%205.58594Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
-}
 #HEADLINE850 {
     width: 237px;
     top: 28.0002px;
@@ -4378,27 +4313,6 @@
 #BOX1041 {
     width: 66.244px;
     height: 66.244px;
-    top: 0px;
-    left: 0px;
-}
-#BOX1041 > .ladi-box {
-    background: rgba(255, 173, 7, 1);
-    background: -webkit-linear-gradient(
-    180deg,
-    rgba(255, 173, 7, 1),
-    rgba(255, 40, 32, 1)
-    );
-    background: linear-gradient(
-    180deg,
-    rgba(255, 173, 7, 1),
-    rgba(255, 40, 32, 1)
-    );
-    box-shadow: 0px 7px 15px 0px rgba(10, 29, 88, 0.1);
-    -webkit-box-shadow: 0px 7px 15px 0px rgba(10, 29, 88, 0.1);
-    border-style: solid;
-    border-color: rgb(255, 225, 176);
-    border-width: 3px;
-    border-radius: 99px;
 }
 #SHAPE1042 {
     width: 43.2614px;
@@ -4406,14 +4320,11 @@
     top: 11.4913px;
     left: 11.4913px;
 }
-#SHAPE1042 svg:last-child {
-    fill: rgba(255, 255, 255, 1);
-}
 #GROUP1040 {
     width: 66.244px;
     height: 66.244px;
     top: auto;
-    left: 7px;
+    left: -220px;
     right: auto;
     bottom: 0px;
     position: fixed;
@@ -4557,7 +4468,7 @@
 }
 #LIST_PARAGRAPH1103 {
     width: 347px;
-    top: 204.03px;
+    top: 160.03px;
     left: 36.9995px;
 }
 #LIST_PARAGRAPH1103 > .ladi-list-paragraph {
@@ -4589,9 +4500,9 @@
     top: 1px;
 }
 #HEADLINE1104 {
-    width: 421px;
+    width: 500px;
     top: 37.596px;
-    left: 0px;
+    left: -40px;    
 }
 #HEADLINE1104 > .ladi-headline {
     font-family: "Montserrat", sans-serif;
@@ -4666,7 +4577,7 @@
 }
 #HEADLINE1106 {
     width: 323px;
-    top: 480.66px;
+    top: 410.66px;
     left: 40.5px;
 }
 #HEADLINE1106 > .ladi-headline {
@@ -4708,7 +4619,7 @@
 #BUTTON1108 {
     width: 200px;
     height: 44px;
-    top: 950.58px;
+    top: 870.58px;
     left: 110px;
 }
 #BUTTON1108 > .ladi-button > .ladi-button-background {
@@ -4850,8 +4761,20 @@
 }
 #GALLERY1113 {
     width: 382.019px;
-    height: 340.818px;
-    top: 550.182px;
+    height: 280.818px;
+    top: 120.182px;
+    left: 18.9905px;
+}
+#GALLERY1114 {
+    width: 382.019px;
+    height: 280.818px;
+    top: 150.182px;
+    left: 18.9905px;
+}
+#GALLERY1115 {
+    width: 382.019px;
+    height: 280.818px;
+    top: 930.182px;
     left: 18.9905px;
 }
 #BUTTON_TEXT1114 {
@@ -4870,7 +4793,7 @@
 #BUTTON1114 {
     width: 216px;
     height: 45px;
-    top: 915px;
+    top: 780px;
     left: 102px;
 }
 #BUTTON1114 > .ladi-button > .ladi-button-background {
@@ -5038,7 +4961,9 @@
     -webkit-animation-iteration-count: infinite;
 }
 #SECTION1118 {
-    height: 950.93px;
+    height: 920.93px;
+    background-image: url("https://img.upanh.tv/2022/11/30/2484ce0fa1f4e9659.jpg");
+    background-attachment: fixed;
 }
 #SECTION1118 > .ladi-section-background {
     background-size: cover;
@@ -5197,6 +5122,8 @@
 }
 #SECTION1355 {
     height: 5px;
+    background-image: url("https://img.upanh.tv/2022/11/30/2484ce0fa1f4e9659.jpg");
+    background-attachment: fixed;
 }
 #SECTION1355 .ladi-section-arrow-down {
     background-image: url("data:image/svg+xml;utf8, %3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%23fff%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M2.00015%205.58594L12.0002%2015.5859L22.0002%205.58594L23.4144%207.00015L12.0002%2018.4144L0.585938%207.00015L2.00015%205.58594Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
@@ -5278,6 +5205,8 @@
 }
 #SECTION1440 {
     height: 1060.32px;
+    background-image: url("https://img.upanh.tv/2022/11/30/2484ce0fa1f4e9659.jpg");
+    background-attachment: fixed;
 }
 #SECTION1440 > .ladi-section-background {
     background-size: cover;
@@ -5294,71 +5223,6 @@
     height: 406.818px;
     top: 540.5px;
     left: 9.9025px;
-}
-#GALLERY1452 .ladi-gallery .ladi-gallery-view .ladi-gallery-view-arrow,
-#GALLERY1452
-    .ladi-gallery
-    .ladi-gallery-control
-    .ladi-gallery-control-arrow {
-    background-image: url("data:image/svg+xml;utf8, %3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%23fff%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M7.00015%200.585938L18.4144%2012.0002L7.00015%2023.4144L5.58594%2022.0002L15.5859%2012.0002L5.58594%202.00015L7.00015%200.585938Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
-}
-#GALLERY1452 > .ladi-gallery > .ladi-gallery-view {
-    height: calc(100% - 0px);
-}
-#GALLERY1452 > .ladi-gallery > .ladi-gallery-control {
-    height: 0px;
-    display: none;
-}
-#GALLERY1452
-    > .ladi-gallery
-    > .ladi-gallery-control
-    > .ladi-gallery-control-box
-    > .ladi-gallery-control-item {
-    width: 0px;
-    height: 0px;
-    margin-right: 0px;
-}
-#GALLERY1452 .ladi-gallery .ladi-gallery-view-item[data-index="0"] {
-    background-image: url("https://w.ladicdn.com/s700x750/5cd7df4930dba94fe2f4593c/cay-chuong-vang-20220514163636.jpg");
-}
-#GALLERY1452 .ladi-gallery .ladi-gallery-control-item[data-index="0"] {
-    background-image: url("https://w.ladicdn.com/s400x400/5cd7df4930dba94fe2f4593c/cay-chuong-vang-20220514163636.jpg");
-}
-#GALLERY1452 .ladi-gallery .ladi-gallery-view-item[data-index="1"] {
-    background-image: url("https://w.ladicdn.com/s700x750/5cd7df4930dba94fe2f4593c/cay-sala-20220514163636.jpg");
-}
-#GALLERY1452 .ladi-gallery .ladi-gallery-control-item[data-index="1"] {
-    background-image: url("https://w.ladicdn.com/s400x400/5cd7df4930dba94fe2f4593c/cay-sala-20220514163636.jpg");
-}
-#GALLERY1452 .ladi-gallery .ladi-gallery-view-item[data-index="2"] {
-    background-image: url("https://w.ladicdn.com/s700x750/5cd7df4930dba94fe2f4593c/cay-xanh-bong-mat-20220514163636.jpg");
-}
-#GALLERY1452 .ladi-gallery .ladi-gallery-control-item[data-index="2"] {
-    background-image: url("https://w.ladicdn.com/s400x400/5cd7df4930dba94fe2f4593c/cay-xanh-bong-mat-20220514163636.jpg");
-}
-#GALLERY1452 .ladi-gallery .ladi-gallery-view-item[data-index="3"] {
-    background-image: url("https://w.ladicdn.com/s700x750/5cd7df4930dba94fe2f4593c/non-bo-da-20220514163636.jpg");
-}
-#GALLERY1452 .ladi-gallery .ladi-gallery-control-item[data-index="3"] {
-    background-image: url("https://w.ladicdn.com/s400x400/5cd7df4930dba94fe2f4593c/non-bo-da-20220514163636.jpg");
-}
-#GALLERY1452 .ladi-gallery .ladi-gallery-view-item[data-index="4"] {
-    background-image: url("https://w.ladicdn.com/s700x750/5cd7df4930dba94fe2f4593c/nui-da-20220514163637.jpg");
-}
-#GALLERY1452 .ladi-gallery .ladi-gallery-control-item[data-index="4"] {
-    background-image: url("https://w.ladicdn.com/s400x400/5cd7df4930dba94fe2f4593c/nui-da-20220514163637.jpg");
-}
-#GALLERY1452 .ladi-gallery .ladi-gallery-view-item[data-index="5"] {
-    background-image: url("https://w.ladicdn.com/s700x750/5cd7df4930dba94fe2f4593c/nui-da-ghep-20220514163637.jpg");
-}
-#GALLERY1452 .ladi-gallery .ladi-gallery-control-item[data-index="5"] {
-    background-image: url("https://w.ladicdn.com/s400x400/5cd7df4930dba94fe2f4593c/nui-da-ghep-20220514163637.jpg");
-}
-#GALLERY1452 .ladi-gallery .ladi-gallery-view-item[data-index="6"] {
-    background-image: url("https://w.ladicdn.com/s700x750/5cd7df4930dba94fe2f4593c/cay-bong-mat-20220514163636.jpg");
-}
-#GALLERY1452 .ladi-gallery .ladi-gallery-control-item[data-index="6"] {
-    background-image: url("https://w.ladicdn.com/s400x400/5cd7df4930dba94fe2f4593c/cay-bong-mat-20220514163636.jpg");
 }
 #BUTTON_TEXT1453 {
     width: 268px;
@@ -5554,7 +5418,7 @@
 #BUTTON1465 {
     width: 227px;
     height: 45px;
-    top: 486.511px;
+    top: 830px;
     left: 96.5px;
 }
 #BUTTON1465 > .ladi-button > .ladi-button-background {
@@ -5587,6 +5451,8 @@
 }
 #SECTION1455 {
     height: 915.511px;
+    background-image: url("https://img.upanh.tv/2022/11/30/2484ce0fa1f4e9659.jpg");
+    background-attachment: fixed;
 }
 #SECTION1455 > .ladi-section-background {
     background-size: cover;
@@ -6749,11 +6615,11 @@
 #BOX1653 {
     width: 384px;
     height: 250.265px;
-    top: 250.897px;
+    top: 155.897px;
     left: 18px;
 }
 #BOX1653 > .ladi-box {
-    background-color: rgb(255, 255, 255);
+    background-color: rgbA(255, 255, 255,.6);
     border-radius: 20px;
 }
 #LINE1779 {
@@ -6796,8 +6662,8 @@
 }
 #LIST_PARAGRAPH1780new {
     width: 384px;
-    top: 505.964px;
-    left: 17.5px;
+    top: 285.964px;
+    left: -5px;
 }
 #LIST_PARAGRAPH1780new > .ladi-list-paragraph {
     font-family: "Roboto", sans-serif;
@@ -6892,6 +6758,8 @@
 }
 #SECTION1774 {
     height: 2568.8px;
+    background-image: url("https://img.upanh.tv/2022/11/30/2484ce0fa1f4e9659.jpg");
+    background-attachment: fixed;
 }
 #SECTION1774 > .ladi-section-background {
     background-size: cover;
@@ -7187,7 +7055,7 @@
 #IMAGE1429 {
     width: 419.773px;
     height: 304.932px;
-    top: 605.194px;
+    top: 530.194px;
     left: 0.1135px;
 }
 #IMAGE1429 > .ladi-image > .ladi-image-background {
@@ -7195,7 +7063,7 @@
     height: 304.932px;
     top: 0px;
     left: 0px;
-    background-image: url("https://w.ladicdn.com/s750x650/5cd7df4930dba94fe2f4593c/3-20220514162248.jpg");
+    background-image: url("https://img.upanh.tv/2022/11/30/1a3949457a4a72a23.jpg");
 }
 #IMAGE1429 > .ladi-image {
     border-radius: 0px;
@@ -7652,7 +7520,7 @@
     height: 305.097px;
     top: 0px;
     left: 0px;
-    background-image: url("https://w.ladicdn.com/s750x650/5cd7df4930dba94fe2f4593c/3-20220514162248.jpg");
+    background-image: url("https://img.upanh.tv/2022/11/30/1a206fad6532ad943.jpg");
 }
 #IMAGE1830 > .ladi-image {
     border-radius: 1px;
@@ -7664,7 +7532,7 @@
     left: 0px;
 }
 #BOX1832 > .ladi-box {
-    background-color: rgb(235, 247, 255);
+    background-color: rgba(235, 247, 255,.6);
     border-radius: 20px;
 }
 #BUTTON_TEXT1834 {
@@ -7815,6 +7683,8 @@
 }
 #SECTION1812 {
     height: 1109.66px;
+    background-image: url("https://img.upanh.tv/2022/11/30/2484ce0fa1f4e9659.jpg");
+    background-attachment: fixed;
 }
 #SECTION1812 > .ladi-section-background {
     background-size: cover;
@@ -8088,7 +7958,7 @@
 #IMAGE1862 {
     width: 271.423px;
     height: 352.511px;
-    top: 563px;
+    top: 453px;
     left: 74.421px;
 }
 #IMAGE1862 > .ladi-image > .ladi-image-background {
@@ -8096,7 +7966,7 @@
     height: 352.511px;
     top: 0px;
     left: 0px;
-    background-image: url("https://w.ladicdn.com/s800x700/5cd7df4930dba94fe2f4593c/11-20220516072701.jpg");
+    background-image: url("https://img.upanh.tv/2022/11/30/1a206fad6532ad943.jpg");
 }
 #IMAGE1862.ladi-animation > .ladi-image {
     animation-name: bounceInRight;
