@@ -1969,7 +1969,7 @@ a:link {
 #POPUP_BLOG .ladi-paragraph img {
     max-width: 100%;
 }
-@media only screen and (min-width: 896px) {
+@media only screen and (min-width: 768px) {
     .ladi-fullwidth {
     width: 100vw !important;
     left: calc(-50vw + 50%) !important;
@@ -1980,7 +1980,7 @@ a:link {
     transition-duration: 1.5s;
     }
 }
-@media only screen and (max-width: 895px) {
+@media only screen and (max-width: 767px) {
     .ladi-element.ladi-auto-scroll {
     overflow-x: auto;
     overflow-y: hidden;
