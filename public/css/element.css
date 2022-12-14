@@ -1,4 +1,4 @@
-@media only screen and (min-width: 896px) {
+@media only screen and (min-width: 768px) {
 .animation-top{
     opacity: 0;
     transition: all 1.2s ease;
@@ -4041,7 +4041,7 @@
     -webkit-animation-iteration-count: 1;
 }
 }
-@media only screen and (max-width: 895px) {
+@media only screen and (max-width: 767px) {
 .animation-top{
     opacity: 0;
     transition: all 1.2s ease;
