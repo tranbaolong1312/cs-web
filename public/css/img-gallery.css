@@ -14,7 +14,7 @@
   .column img:hover {
     opacity: 1;
   }
-  
+  /* The grid: Three equal columns that floats next to each other */
   .column1 {
     float: left;
     width: 33%;
