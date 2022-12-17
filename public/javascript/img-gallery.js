@@ -36,7 +36,7 @@ function loopService() {
       else i = 0;
       setTimeout(interval, 1000, i_expandImg, i_Imgs, i);
     };
-    interval(0, expandImg, Imgs, 0);
+    interval(expandImg, Imgs, 0);
   };
 
   for(let i = 0; i < galaryList; ++i)
