@@ -41,13 +41,22 @@ function loopService() {
       };
     }
 
+    let timeoutID;
+
     const interval = (i_expandImg, i_Imgs, i) => {
       ImageReplace(i_expandImg, i_Imgs[i]);
-      if (i < Imgs.length - 1) ++i;
-      else i = 0;
-      setTimeout(interval, 8000, i_expandImg, i_Imgs, i);
+      timeoutID = setTimeout(interval, 8000, i_expandImg, i_Imgs, (i < Imgs.length - 1) ? ++i : 0);
     };
-    interval(expandImg, Imgs, 0);
+
+    const makePause = (i_isPaused) => {
+      if (i_isPaused) {
+        clearTimeout(timeoutID);
+      } else {
+        interval(expandImg, Imgs, 0);
+      }
+    };
+
+    makePause(0);
   };
 
   for(let i = 0; i < galleryList.length; ++i)
