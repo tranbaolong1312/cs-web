@@ -30,6 +30,8 @@ function loopService() {
     const interval = (i_expandImg, i_Imgs, i) => {
       i_expandImg.src = i_Imgs[i].src;
       i_expandImg.parentElement.style.display = "block";
+      console.log(i_expandImg.src);
+      console.log(i);
       if (i < Imgs.length()) ++i;
       else i = 0;
       setTimeout(interval, 1000, i_expandImg, i_Imgs, i);
