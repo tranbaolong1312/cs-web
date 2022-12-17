@@ -2,7 +2,6 @@
 //     window.scrollTo(0, 0);
 //   }
 window.onload = function() {
-    loopService();
     //SECTION2
     document.getElementById('text1104').classList.add("fade-animation-top");
     document.getElementById('box1097').classList.add("fade-animation-top");
@@ -60,4 +59,7 @@ window.onload = function() {
     document.getElementById('IMAGE1830').classList.add("fade-animation-right");
     document.getElementById('GROUP1831').classList.add("fade-animation-left");    
     document.getElementById('HEADLINE1817').classList.add("fade-animation-left");
+
+    //Service
+    loopService();
   };
