@@ -23,8 +23,8 @@ function myFunctionTC(imgsTC) {
   }
   
 function loopService() {
-  const galaryList = ["expandedImg", "expandedImg1", "expandedImg2", "expandedImgTC"];
-  galaryList.transitionImg = (index) => {
+  const galleryList = ["expandedImg", "expandedImg1", "expandedImg2", "expandedImgTC"];
+  galleryList.transitionImg = (index) => {
     let expandImg = document.getElementById(this[index]);
     const Imgs = expandImg.parentElement.nextElementSibling.querySelectorAll("img");
     const interval = (i_expandImg, i_Imgs, i) => {
@@ -32,15 +32,15 @@ function loopService() {
       i_expandImg.parentElement.style.display = "block";
       console.log(i_expandImg.src);
       console.log(i);
-      if (i < Imgs.length()) ++i;
+      if (i < Imgs.length) ++i;
       else i = 0;
       setTimeout(interval, 1000, i_expandImg, i_Imgs, i);
     };
     interval(expandImg, Imgs, 0);
   };
 
-  for(let i = 0; i < galaryList.length(); ++i)
+  for(let i = 0; i < galleryList.length; ++i)
   {
-    galaryList.transitionImg(i);
+    galleryList.transitionImg(i);
   }
 }

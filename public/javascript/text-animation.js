@@ -2,7 +2,7 @@
 //     window.scrollTo(0, 0);
 //   }
 window.onload = function() {
-    //loopService();
+    loopService();
     //SECTION2
     document.getElementById('text1104').classList.add("fade-animation-top");
     document.getElementById('box1097').classList.add("fade-animation-top");
