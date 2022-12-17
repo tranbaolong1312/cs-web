@@ -39,7 +39,7 @@ function loopService() {
     interval(expandImg, Imgs, 0);
   };
 
-  for(let i = 0; i < galaryList; ++i)
+  for(let i = 0; i < galaryList.length(); ++i)
   {
     galaryList.transitionImg(i);
   }
