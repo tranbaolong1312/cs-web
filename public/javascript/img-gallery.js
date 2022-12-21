@@ -45,7 +45,7 @@ function loopService() {
 
     const interval = (i_expandImg, i_Imgs, i) => {
       ImageReplace(i_expandImg, i_Imgs[i]);
-      timeoutID = setTimeout(interval, 8000, i_expandImg, i_Imgs, (i < Imgs.length - 1) ? ++i : 0);
+      timeoutID = setTimeout(interval, 8000, i_expandImg, i_Imgs, (i + 1) % Imgs.length);
     };
 
     const makePause = (i_isPaused) => {
@@ -56,6 +56,7 @@ function loopService() {
       }
     };
 
+    // bind this function in order to pause interval
     makePause(0);
   };
 
