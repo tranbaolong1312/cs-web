@@ -2,13 +2,14 @@
 .column {
     float: left;
     width: 25%;
-    padding: 10px;
+    padding: 10px;    
   }
   
   /* Style the images inside the grid */
   .column img {
     opacity: 0.8; 
-    cursor: pointer; 
+    cursor: pointer;
+    border-radius: 10px;
   }
   
   .column img:hover {
@@ -24,7 +25,8 @@
   /* Style the images inside the grid */
   .column1 img {
     opacity: 0.8; 
-    cursor: pointer; 
+    cursor: pointer;
+    border-radius: 10px; 
   }
   
   .column1 img:hover {
@@ -42,4 +44,55 @@
     position: relative;
     display: block;
     box-shadow: -5px 15px 80px 15px grey;
+    border-radius: 10px;
   }
+
+#expandedImg{
+  width:100%;
+  border-radius: 10px;
+}
+#expandedImg1{
+  width:100%;
+  border-radius: 10px;
+}
+#expandedImg2{
+  width:100%;
+  border-radius: 10px;
+}
+#expandedImg3{
+  width:100%;
+  border-radius: 10px;
+}
+#expandedImg4{
+  width:100%;
+  border-radius: 10px;
+}
+#expandedImg5{
+  width:100%;
+  border-radius: 10px;
+}
+#expandedImg6{
+  width:100%;
+  border-radius: 10px;
+}
+#expandedImg7{
+  width:100%;
+  border-radius: 10px;
+}
+#expandedImg8{
+  width:100%;
+  border-radius: 10px;
+}
+#expandedImg9{
+  width:100%;
+  border-radius: 10px;
+}
+#expandedImg10{
+  width:100%;
+  border-radius: 10px;
+}
+#expandedImg11{
+  width:100%;
+  border-radius: 10px;
+}
+
