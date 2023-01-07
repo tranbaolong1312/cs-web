@@ -57,4 +57,8 @@ function loopService() {
   divclose.onclick = function() {
     document.getElementById("POPUP1799").style.removeProperty("display");
   };
+
 }
+function Redirect() {
+  window.location.replace(window.location.href + "/thankyou.html");
+} 
