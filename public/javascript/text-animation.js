@@ -94,6 +94,7 @@ window.onload = function() {
     document.getElementById('IMAGE1830').classList.add("fade-animation-right");
     document.getElementById('GROUP1831').classList.add("fade-animation-left");
 
+    
     //Service
     loopService();
   };

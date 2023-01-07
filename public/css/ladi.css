@@ -1812,12 +1812,7 @@ a:link {
 .ladi-animation-hidden {
     visibility: hidden !important;
 }
-.ladi-lazyload {
-    background-image: none !important;
-}
-.ladi-list-paragraph ul li.ladi-lazyload:before {
-    background-image: none !important;
-}
+
 .ladi-cart-number {
     position: absolute;
     top: -2px;

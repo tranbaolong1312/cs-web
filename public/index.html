@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <meta id="viewport" name="viewport" content="width=960, initial-scale=1.0">
+    <meta id="viewport" name="viewport" content="width=860, initial-scale=1.0">
     <title>Nhà Yến Đạt Hưng</title>
     <meta http-equiv="Cache-Control" content="no-cache" />
     <meta http-equiv="Expires" content="-1" />
@@ -19,9 +19,8 @@
     <link rel="stylesheet" href="css/element.css">
     <link rel="stylesheet" href="css/img-gallery.css">
     <script src="javascript/img-gallery.js?version=3.0"></script>
-    <script src="javascript/text-animation.js?version=2.0"></script>
-    <script type="text/javascript">window.ladi_viewport = function () {var screen_width = window.ladi_screen_width || window.screen.width;var width = window.outerWidth > 0 ? window.outerWidth : screen_width;var widthDevice = width;var is_desktop = width >= 768;var content = "";if (typeof window.ladi_is_desktop == "undefined" || window.ladi_is_desktop == undefined) {window.ladi_is_desktop = is_desktop;}if (!is_desktop) {widthDevice = 420;} else {widthDevice = 960;}content = "width=" + widthDevice + ", user-scalable=no";var scale = 1;if (!is_desktop && widthDevice != screen_width && screen_width > 0) {scale = screen_width / widthDevice;}if (scale != 1) {content += ", initial-scale=" + scale + ", minimum-scale=" + scale + ", maximum-scale=" + scale;}var docViewport = document.getElementById("viewport");if (!docViewport) {docViewport = document.createElement("meta");docViewport.setAttribute("id", "viewport");docViewport.setAttribute("name", "viewport");document.head.appendChild(docViewport);}docViewport.setAttribute("content", content);};window.ladi_viewport();window.ladi_fbq_data = [];window.ladi_fbq = function (track_name, conversion_name, data, event_data) {window.ladi_fbq_data.push([track_name, conversion_name, data, event_data]);};</script>
-
+    <script src="javascript/text-animation.js?version=2.0"></script>    
+    <!-- <script src="javascript/trigger-css-scroll.js"></script> -->
   </head>
   <body>
     <div class="ladi-wraper">
@@ -956,7 +955,7 @@
                 class="ladi-element"
               >
                 <form autocomplete="off" method="post" class="ladi-form">
-                  <div id="BUTTON1834" class="ladi-element">
+                  <div id="BUTTON1834" class="ladi-element" onclick = "Redirect();">
                     <div class="ladi-button">
                       <div class="ladi-button-background ladi-lazyload"></div>
                       <div
@@ -1158,8 +1157,8 @@
       <div id="SECTION_POPUP" class="ladi-section">
         <div class="ladi-section-background ladi-lazyload"></div>
         <div class="ladi-container">
-          <div id="POPUP1799" class="ladi-element" >
-            <div class="ladi-popup">
+          <div id="POPUP1799" class="ladi-element" style="box-shadow: -5px 15px 80px 15px grey; border-radius: 20px;">
+            <div id="form-animation" class="ladi-popup animation-top">
               <div class="ladi-popup-background"></div>
               <div id="IMAGE1810" class="ladi-element">
                 <div class="ladi-image">
@@ -1175,7 +1174,7 @@
                 class="ladi-element"
               >
                 <form autocomplete="off" method="post" class="ladi-form">
-                  <div id="BUTTON1804" class="ladi-element">
+                  <div id="BUTTON1804" class="ladi-element" onclick="Redirect();">
                     <div class="ladi-button">
                       <div class="ladi-button-background ladi-lazyload"></div>
                       <div
