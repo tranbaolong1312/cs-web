@@ -86,7 +86,7 @@
 .animation-top{
     opacity: 0;
     transition: all 1.2s ease;
-    transform: translateY(40px);
+    transform: translateY(40px);    
     display:inline-block;
 }
 .fade-animation-top{
@@ -110,6 +110,10 @@
     display:inline-block;
 }
 .fade-animation-left{
+    opacity: 1;
+    transform: translateX(0px);
+}
+.fade-animation-form{
     opacity: 1;
     transform: translateX(0px);
 }
@@ -5436,6 +5440,10 @@
     display:inline-block;
 }
 .fade-animation-left{
+    opacity: 1;
+    transform: translateX(0px);
+}
+.fade-animation-form{
     opacity: 1;
     transform: translateX(0px);
 }
