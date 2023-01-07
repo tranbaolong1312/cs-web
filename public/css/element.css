@@ -133,6 +133,20 @@
 #SECTION2 .ladi-section-arrow-down {
     background-image: url("data:image/svg+xml;utf8, %3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%23fff%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M2.00015%205.58594L12.0002%2015.5859L22.0002%205.58594L23.4144%207.00015L12.0002%2018.4144L0.585938%207.00015L2.00015%205.58594Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
 }
+#SECTION3 {
+    height: 750px;
+    background-image: url("https://img.upanh.tv/2022/11/30/1.-Troi--yen.jpg");
+}
+#SECTION3 > .ladi-section-background {
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: content-box;    
+    background-position: center top;
+    background-repeat: repeat;
+}
+#SECTION3 .ladi-section-arrow-down {
+    background-image: url("data:image/svg+xml;utf8, %3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%23fff%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M2.00015%205.58594L12.0002%2015.5859L22.0002%205.58594L23.4144%207.00015L12.0002%2018.4144L0.585938%207.00015L2.00015%205.58594Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+}
 #SECTION6 {
     height: 671.001px;
     background-image: url("https://img.upanh.tv/2022/11/30/2484ce0fa1f4e9659.jpg");
@@ -202,6 +216,34 @@
     line-height: 1.6;
 }
 #HEADLINE8 .ladi-headline {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#HEADLINE9 {
+    width: 1000px;
+    top: 160px;
+    left: -20px;
+}
+#HEADLINE9 > .ladi-headline {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgba(0, 0, 153, 1);
+    background: -webkit-linear-gradient(
+    180deg,
+    rgba(0, 0, 153, 1),
+    rgba(0, 153, 255, 1)
+    );
+    background: linear-gradient(
+    180deg,
+    rgba(0, 0, 153, 1),
+    rgba(0, 153, 255, 1)
+    );
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.6;
+}
+#HEADLINE9 .ladi-headline {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -367,7 +409,7 @@
     fill: rgba(255, 255, 255, 1);
 }
 #HEADLINE856 {
-    width: 400px;
+    width: 500px;
     top: 2px;
     left: 33px;
 }
@@ -495,7 +537,7 @@
 }
 #HEADLINE1096 {
     width: 914px;
-    top: 103.55px;
+    top: 73.55px;
     left: 23.5px;
 }
 #HEADLINE1096 > .ladi-headline {
@@ -520,7 +562,7 @@
 #BOX1097 {
     width: 798.105px;
     height: 77px;
-    top: 113.05px;
+    top: 80.05px;
     left: 81.4475px;
 }
 #BOX1097 > .ladi-box {
@@ -937,6 +979,12 @@
     height: 505.35px;
     top: 0;
     left: 50px;
+}
+#GALLERYMAIN1 {
+    width: 650px;
+    height: 505.35px;
+    top: 0;
+    left: 150px;
 }
 #GALLERY1113 {
     width: 563.063px;
@@ -4319,6 +4367,32 @@
     animation-iteration-count: 1;
     -webkit-animation-iteration-count: 1;
 }
+#IMAGE1430 {
+    width: 950.371px;
+    height: 495.689px;
+    top: 250px;
+    left: 0px;
+}
+#IMAGE1430 > .ladi-image > .ladi-image-background {
+    width: 709.888px;
+    height: 495.689px;
+    top: 0px;
+    left: 0px;
+    background-image: url("https://img.upanh.tv/2022/11/30/1a3949457a4a72a23.jpg");
+}
+#IMAGE1430 > .ladi-image {
+    border-radius: 10px;
+}
+#IMAGE1430.ladi-animation > .ladi-image {
+    animation-name: bounceInRight;
+    -webkit-animation-name: bounceInRight;
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+}
 #POPUP1799 {
     width: 790px;
     height: 440px;
@@ -4332,9 +4406,10 @@
     background-size: cover;
     background-attachment: scroll;
     background-origin: content-box;
-    background-image: url("https://w.ladicdn.com/s790x440/5cd7df4930dba94fe2f4593c/1-20220514161036.jpg");
+    background-image: url("https://img.upanh.tv/2022/11/30/1.-Troi--yen.jpg");
     background-position: center top;
-    background-repeat: repeat;
+    background-repeat: repeat;    
+    border-radius: 20px;
 }
 #POPUP1799 .popup-close {
     background-image: url("data:image/svg+xml;utf8, %3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%23fff%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M23.4144%202.00015L2.00015%2023.4144L0.585938%2022.0002L22.0002%200.585938L23.4144%202.00015Z%22%3E%3C%2Fpath%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M2.00015%200.585938L23.4144%2022.0002L22.0002%2023.4144L0.585938%202.00015L2.00015%200.585938Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
@@ -4352,7 +4427,10 @@
     left: 23.5px;
 }
 #BOX1802 > .ladi-box {
-    background-color: rgb(246, 255, 244);
+    background-color: rgba(253, 251, 251, 0.8);
+    border-style: dashed;
+    border-color: rgb(0, 0, 153);
+    border-width: 2px;
     border-radius: 20px;
 }
 #BUTTON_TEXT1804 {
@@ -4374,7 +4452,7 @@
     left: 31px;
 }
 #BUTTON1804 > .ladi-button > .ladi-button-background {
-    background-color: rgb(38, 123, 67);
+    background-color: rgb(0,0,215);
 }
 #BUTTON1804 > .ladi-button {
     border-radius: 30px;
@@ -4382,19 +4460,25 @@
 #FORM_ITEM1806 {
     width: 350px;
     height: 45px;
-    top: 0px;
+    top: -20px;
     left: 0px;
 }
 #FORM_ITEM1807 {
     width: 350px;
     height: 45px;
-    top: 58px;
+    top: 30px;
     left: 0px;
 }
 #FORM_ITEM1808 {
     width: 350px;
     height: 103px;
-    top: 116px;
+    top: 130px;
+    left: 0px;
+}
+#FORM_ITEM1809 {
+    width: 350px;
+    height: 45px;
+    top: 80px;
     left: 0px;
 }
 #FORM1803 {
@@ -4471,7 +4555,7 @@
     height: 275.41px;
     top: 0px;
     left: 0px;
-    background-image: url("https://w.ladicdn.com/s700x600/5cd7df4930dba94fe2f4593c/3-20220514162248.jpg");
+    background-image: url("https://i.upanh.org/2023/01/04/1e10919c2100a411b.jpg");
 }
 #IMAGE1810 > .ladi-image {
     border-radius: 10px;
@@ -5376,6 +5460,21 @@
 #SECTION2 .ladi-section-arrow-down {
     background-image: url("data:image/svg+xml;utf8, %3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%23fff%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M2.00015%205.58594L12.0002%2015.5859L22.0002%205.58594L23.4144%207.00015L12.0002%2018.4144L0.585938%207.00015L2.00015%205.58594Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
 }
+#SECTION3 {
+    height: 750.7px;
+    background-image: url("https://img.upanh.tv/2022/11/30/1.-Troi--yen.jpg");
+}
+#SECTION3 > .ladi-section-background {
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: content-box;
+    background-image: url("https://w.ladicdn.com/s768x1186/5cd7df4930dba94fe2f4593c/1-20220514161036.jpg");
+    background-position: center top;
+    background-repeat: repeat;
+}
+#SECTION3 .ladi-section-arrow-down {
+    background-image: url("data:image/svg+xml;utf8, %3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%23fff%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M2.00015%205.58594L12.0002%2015.5859L22.0002%205.58594L23.4144%207.00015L12.0002%2018.4144L0.585938%207.00015L2.00015%205.58594Z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+}
 #SECTION6 {
     height: 880.82px;
     background-image: url("https://img.upanh.tv/2022/11/30/2484ce0fa1f4e9659.jpg");
@@ -5443,6 +5542,33 @@
     line-height: 1.6;
 }
 #HEADLINE8 .ladi-headline {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#HEADLINE9 {
+    width: 600px;
+    top: 120px;
+    left: -70px;
+}
+#HEADLINE9 > .ladi-headline {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, cursive;
+    background: rgba(0, 0, 153, 1);
+    background: -webkit-linear-gradient(
+    180deg,
+    rgba(0, 0, 153, 1),
+    rgba(0, 153, 255, 1)
+    );
+    background: linear-gradient(
+    180deg,
+    rgba(0, 0, 153, 1),
+    rgba(0, 153, 255, 1)
+    );
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.6;
+}
+#HEADLINE9 .ladi-headline {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -5608,7 +5734,7 @@
     fill: rgba(255, 255, 255, 1);
 }
 #HEADLINE856 {
-    width: 292px;
+    width: 502px;
     top: 2px;
     left: 33px;
 }
@@ -5690,7 +5816,7 @@
     width: 66.244px;
     height: 66.244px;
     top: auto;
-    left: -220px;
+    left: 0px;
     right: auto;
     bottom: 0px;
     position: fixed;
@@ -6175,6 +6301,12 @@
     height: 280.818px;
     top: 0;
     left: 0;
+}
+#GALLERYMAIN1 {
+    width: 550px;
+    height: 280.818px;
+    top: 200px;
+    left: -60px;
 }
 #GALLERY1113 {
     width: 382.019px;
@@ -9551,7 +9683,7 @@
     background-size: cover;
     background-attachment: scroll;
     background-origin: content-box;
-    background-image: url("https://w.ladicdn.com/s412x446/5cd7df4930dba94fe2f4593c/1-20220514161036.jpg");
+    background-image: url("https://img.upanh.tv/2022/11/30/1.-Troi--yen.jpg");
     background-position: center top;
     background-repeat: repeat;
 }
@@ -9571,8 +9703,11 @@
     left: 21.5368px;
 }
 #BOX1802 > .ladi-box {
-    background-color: rgb(246, 255, 244);
     border-radius: 20px;
+    background-color: rgba(253, 251, 251, 0.8);
+    border-style: dashed;
+    border-color: rgb(0,0,153);
+    border-width: 2px;
 }
 #BUTTON_TEXT1804 {
     width: 288px;
@@ -9593,27 +9728,33 @@
     left: 31px;
 }
 #BUTTON1804 > .ladi-button > .ladi-button-background {
-    background-color: rgb(38, 123, 67);
+    background-color: rgb(0,0,215);
 }
 #BUTTON1804 > .ladi-button {
     border-radius: 30px;
 }
 #FORM_ITEM1806 {
     width: 350px;
-    height: 45px;
+    height: 40px;
     top: 0px;
     left: 0px;
 }
 #FORM_ITEM1807 {
     width: 350px;
-    height: 45px;
-    top: 58px;
+    height: 40px;
+    top: 50px;
     left: 0px;
 }
 #FORM_ITEM1808 {
     width: 350px;
-    height: 103px;
-    top: 116px;
+    height: 80px;
+    top: 150px;
+    left: 0px;
+}
+#FORM_ITEM1809 {
+    width: 350px;
+    height: 40px;
+    top: 100px;
     left: 0px;
 }
 #FORM1803 {
