@@ -482,15 +482,15 @@
     padding: 8px 0px;
 }
 #BOX1041 {
-    width: 4em;
-    height: 4em;
-    top: 0;
+    width: 59px;
+    height: 59px;
+    top: -10px;
     left: 0;
 }
 #SHAPE1042 {
-    width: 49.792px;
-    height: 49.792px;
-    top: 0;
+    width: 59px;
+    height: 59px;
+    top: 0px;
     left: 0;
 }
 #GROUP1040 {
@@ -5555,8 +5555,8 @@
 }
 #HEADLINE9 {
     width: 600px;
-    top: 120px;
-    left: -70px;
+    top: 150px;
+    left: 0;
 }
 #HEADLINE9 > .ladi-headline {
     font-family: Verdana, Geneva, Tahoma, sans-serif, cursive;
@@ -5572,7 +5572,7 @@
     rgba(0, 153, 255, 1)
     );
     color: rgb(0, 0, 0);
-    font-size: 30px;
+    font-size: 22px;
     font-weight: bold;
     line-height: 1.6;
 }
@@ -5811,8 +5811,10 @@
     padding: 8px 0px;
 }
 #BOX1041 {
-    width: 66.244px;
-    height: 66.244px;
+    width: 59px;
+    height: 59px;
+    top: -10px;
+    left: -20px;
 }
 #SHAPE1042 {
     width: 43.2614px;
@@ -5821,8 +5823,8 @@
     left: 0;
 }
 #GROUP1040 {
-    width: 66.244px;
-    height: 66.244px;
+    width: 59px;
+    height: 59px;
     top: auto;
     left: 0px;
     right: auto;
@@ -6311,10 +6313,10 @@
     left: 0;
 }
 #GALLERYMAIN1 {
-    width: 550px;
+    width: 470px;
     height: 280.818px;
-    top: 200px;
-    left: -60px;
+    top: 250px;
+    left: -25px;
 }
 #GALLERY1113 {
     width: 382.019px;

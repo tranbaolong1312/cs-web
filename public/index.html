@@ -27,7 +27,7 @@
           window.ladi_is_desktop = is_desktop;
           }
         if (!is_desktop) {
-          widthDevice = 420;
+          widthDevice = 500;
           } 
         else {widthDevice = 960;}content = "width=" + widthDevice + ", user-scalable=no";
         var scale = 1;
@@ -985,8 +985,8 @@
                 data-config-id="628301a85153fa002d021058"
                 class="ladi-element"
               >
-                <form autocomplete="off" method="post" class="ladi-form">
-                  <div id="BUTTON1834" class="ladi-element" onclick = "Redirect();">
+                <form name="form-main" autocomplete="off" method="post" class="ladi-form" >
+                  <div id="BUTTON1834" class="ladi-element"onclick="Redirect();">
                     <div class="ladi-button">
                       <div class="ladi-button-background ladi-lazyload"></div>
                       <div
@@ -1006,14 +1006,14 @@
                       ></div>
                       <div class="ladi-form-item">
                         <input
-                          autocomplete="off"
-                          tabindex="5"
-                          name="name"
-                          required=""
+                          action="#"
+                          id="name1"
+                          name="name1"
                           class="ladi-form-control"
                           type="text"
                           placeholder="Họ và tên"
                           value=""
+                          required
                         />
                       </div>
                     </div>
@@ -1025,15 +1025,14 @@
                       ></div>
                       <div class="ladi-form-item">
                         <input
-                          autocomplete="off"
-                          tabindex="7"
-                          name="phone"
-                          required=""
+                          id="phone1"
+                          name="phone1"
                           class="ladi-form-control"
                           type="tel"
                           placeholder="Số điện thoại"
                           pattern="(\+84|0)(9|8|7|5|3)[0-9]{8}"
                           value=""
+                          required
                         />
                       </div>
                     </div>
@@ -1045,14 +1044,14 @@
                       ></div>
                       <div class="ladi-form-item">
                         <input
-                          autocomplete="off"
-                          tabindex="5"
-                          name="name"
+                          id="email1"
+                          name="email1"
                           required=""
                           class="ladi-form-control"
                           type="text"
                           placeholder="Email"
                           value=""
+                          required
                         />
                       </div>
                     </div>
@@ -1064,9 +1063,8 @@
                       ></div>
                       <div class="ladi-form-item">
                         <textarea
-                          autocomplete="off"
-                          tabindex="8"
-                          name="message"
+                          id="message1"
+                          name="message1"
                           required=""
                           class="ladi-form-control"
                           placeholder="Để lại lời nhắn cho chúng tôi"
@@ -1088,7 +1086,7 @@
             <div class="ladi-group">
               <div id="BOX1041" class="ladi-element">
                 <div class="ladi-box"><a href="tel:0902378101" id="SHAPE1042" class="ladi-element"
-                    ><img style="width: 4em;height: 4em;" src="images/iphone-computer-icons-telephone-call-phone-icon-6ef0536c1494f8115055e15bac761fcb.png"/></a>                 
+                    ><img src="https://vtc.edu.vn/wp-content/themes/vtca-theme/assets/images/btn-cta-big.svg"/></a>                 
                 </div>                
               </div>              
               </a>
@@ -1225,9 +1223,8 @@
                       ></div>
                       <div class="ladi-form-item">
                         <input
-                          autocomplete="off"
-                          tabindex="9"
-                          name="name"
+                          id="name2"
+                          name="name2"
                           required=""
                           class="ladi-form-control"
                           type="text"
@@ -1244,9 +1241,8 @@
                       ></div>
                       <div class="ladi-form-item">
                         <input
-                          autocomplete="off"
-                          tabindex="11"
-                          name="phone"
+                          id="phone2"
+                          name="phone2"
                           required=""
                           class="ladi-form-control"
                           type="tel"
@@ -1264,9 +1260,8 @@
                       ></div>
                       <div class="ladi-form-item">
                         <textarea
-                          autocomplete="off"
-                          tabindex="12"
-                          name="message"
+                          id="message2"
+                          name="message2"
                           required=""
                           class="ladi-form-control"
                           placeholder="Bạn cần tư vấn thêm về vấn đề nào?"
@@ -1281,9 +1276,8 @@
                       ></div>
                       <div class="ladi-form-item">
                         <input
-                          autocomplete="off"
-                          tabindex="9"
-                          name="name"
+                          id="email2"
+                          name="email2"
                           required=""
                           class="ladi-form-control"
                           type="text"
@@ -1310,68 +1304,6 @@
     <div id="backdrop-popup" class="backdrop-popup"></div>
     <div id="backdrop-dropbox" class="backdrop-dropbox"></div>
     <div id="lightbox-screen" class="lightbox-screen"></div>
-    <script id="script_lazyload" type="text/javascript">
-      (function () {
-        var style_lazyload = document.getElementById("style_lazyload");
-        var docEventScroll = window;
-        var list_element_lazyload = document.querySelectorAll(
-          ".ladi-section-background, .ladi-image-background, .ladi-button-background, .ladi-headline, .ladi-video-background, .ladi-countdown-background, .ladi-box, .ladi-frame-background, .ladi-tabs-background, .ladi-survey-option-background, .ladi-survey-option-image, .ladi-banner, .ladi-form-item-background, .ladi-gallery-view-item, .ladi-gallery-control-item, .ladi-spin-lucky-screen, .ladi-spin-lucky-start, .ladi-form-label-container .ladi-form-label-item.image, .ladi-list-paragraph ul li"
-        );
-        for (var i = 0; i < list_element_lazyload.length; i++) {
-          var rect = list_element_lazyload[i].getBoundingClientRect();
-          if (
-            rect.x == "undefined" ||
-            rect.x == undefined ||
-            rect.y == "undefined" ||
-            rect.y == undefined
-          ) {
-            rect.x = rect.left;
-            rect.y = rect.top;
-          }
-          var offset_top = rect.y + window.scrollY;
-          if (
-            offset_top >= window.scrollY + window.innerHeight ||
-            window.scrollY >= offset_top + list_element_lazyload[i].offsetHeight
-          ) {
-            list_element_lazyload[i].classList.add("ladi-lazyload");
-          }
-        }
-        if (
-          typeof style_lazyload != "undefined" &&
-          style_lazyload != undefined
-        ) {
-          style_lazyload.parentElement.removeChild(style_lazyload);
-        }
-        var currentScrollY = window.scrollY;
-        var stopLazyload = function (event) {
-          if (event.type == "scroll" && window.scrollY == currentScrollY) {
-            currentScrollY = -1;
-            return;
-          }
-          docEventScroll.removeEventListener("scroll", stopLazyload);
-          list_element_lazyload =
-            document.getElementsByClassName("ladi-lazyload");
-          while (list_element_lazyload.length > 0) {
-            list_element_lazyload[0].classList.remove("ladi-lazyload");
-          }
-        };
-        var scrollEventPassive = null;
-        try {
-          var opts = Object.defineProperty({}, "passive", {
-            get: function () {
-              scrollEventPassive = { passive: true };
-            },
-          });
-          window.addEventListener("testPassive", null, opts);
-          window.removeEventListener("testPassive", null, opts);
-        } catch (e) {}
-        docEventScroll.addEventListener(
-          "scroll",
-          stopLazyload,
-          scrollEventPassive
-        );
-      })();
-    </script>
     <script type="module">
       // Import the functions you need from the SDKs you need
       import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
